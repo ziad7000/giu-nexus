@@ -1,0 +1,38 @@
+{
+  "name": "giu_nexus",
+  "version": "1.0.0",
+  "description": "- Tasneem Ayman Mohamed 16003459 - Ahmed Sameh Mohamed 16003382 - Halla Mohamed Nabil 16007850 - Mohamed Amro Arayes 16003231 - Ziad Islam 16008592 - Abdelrahman Sherif 16004048 - Nour Mostafa Mohamed 16001618 - Youssef Sherif Elseddawy 16004056 - Yusuf Shehab 16007472 - Abdelrahman Amr Yehia 16005218",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasneemmohamed16003459/giu_nexus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tasneemmohamed16003459/giu_nexus/issues"
+  },
+  "homepage": "https://github.com/tasneemmohamed16003459/giu_nexus#readme",
+  "dependencies": {
+    "@huggingface/inference": "^4.13.15",
+    "axios": "^1.16.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.5.0",
+    "nodemailer": "^8.0.7",
+    "react-router-dom": "^7.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
